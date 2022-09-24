@@ -1,0 +1,11 @@
+[ActivityChain_AbiziDistractionAssault X2ActivityChainTemplate]
+strTitle="Abizi Distraction"
+strDescription="Description of the chain"
+strObjective="Objective - cant recall what is this for"
+
+[Activity_AbiziDistractionAssault X2ActivityTemplate_Assault]
+strOverviewDescription="Abizi Distraction"
+MissionPinLabel="Abizi Distraction - PIN"
+
+[Activity_AbiziDistractionInfiltrate X2ActivityTemplate_Infiltration]
+strOverviewDescription="Disrupt ADVENT Patrol Path"

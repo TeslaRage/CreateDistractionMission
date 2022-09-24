@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # XCOM ModBuddy Solution File, Format Version 11.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CreateDistractionMission", "CreateDistractionMission\CreateDistractionMission.x2proj", "{AB77B898-4F68-48E5-A416-C774211B7108}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CreateDistractionMission", "CreateDistractionMission\CreateDistractionMission.x2proj", "{42FF6BFF-645B-43C8-AC31-4B791CEFA2A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|XCOM 2 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB77B898-4F68-48E5-A416-C774211B7108}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
-		{AB77B898-4F68-48E5-A416-C774211B7108}.Default|XCOM 2.Build.0 = Default|XCOM 2
+		{42FF6BFF-645B-43C8-AC31-4B791CEFA2A8}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
+		{42FF6BFF-645B-43C8-AC31-4B791CEFA2A8}.Default|XCOM 2.Build.0 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

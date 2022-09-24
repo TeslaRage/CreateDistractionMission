@@ -19,7 +19,13 @@
     <Content Include="Config\XComEncounters.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComGameBoard.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComInfiltration.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComMissionDefs.ini">
@@ -28,7 +34,13 @@
     <Content Include="Config\XComMIssions.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComMissionSources.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComSchedules.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\CovertInfiltration.int">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
@@ -44,9 +56,20 @@
     <Content Include="Src\CreateDistractionMission\Classes\X2MissionSet_CreateDistraction.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\CreateDistractionMission\Classes\X2StrategyElement_CreateDistractionActivities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CreateDistractionMission\Classes\X2StrategyElement_CreateDistractionActivityChains.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\CreateDistractionMission\Classes\X2StrategyElement_DistractionRewards.uc">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
-  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+  <PropertyGroup>
+    <SolutionRoot>$(MSBuildProjectDirectory)\..\</SolutionRoot>
+    <ScriptsDir>$(SolutionRoot).scripts\</ScriptsDir>
+    <BuildCommonRoot>$(ScriptsDir)X2ModBuildCommon\</BuildCommonRoot>
+  </PropertyGroup>
+  <Import Project="$(BuildCommonRoot)XCOM2.targets" />
 </Project>
