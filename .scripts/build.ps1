@@ -12,12 +12,12 @@ Write-Host "Sourcing $common"
 
 $builder = [BuildProject]::new("CreateDistractionMission", $srcDirectory, $sdkPath, $gamePath)
 
-#$workshopDirectory = "F:\SteamLibrary\steamapps\workshop\content\268500"
+$workshopDirectory = "F:\SteamLibrary\steamapps\workshop\content\268500"
 
-#$builder.IncludeSrc("$workshopDirectory\1796402257\Src")	#CHL BETA
-#$builder.IncludeSrc("$workshopDirectory\1529472981\Src")	#OSSAAT
+$builder.IncludeSrc("$workshopDirectory\1796402257\Src")	#CHL BETA
+$builder.IncludeSrc("$workshopDirectory\1529472981\Src")	#OSSAAT
 #$builder.IncludeSrc("$workshopDirectory\2534737016\Src")
-#$builder.IncludeSrc("$workshopDirectory\2567230730\Src")	#CI
+$builder.IncludeSrc("$workshopDirectory\2567230730\Src")	#CI
 
 switch ($config)
 {

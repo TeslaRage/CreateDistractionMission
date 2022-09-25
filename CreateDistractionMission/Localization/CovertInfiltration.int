@@ -1,7 +1,7 @@
 [ActivityChain_AbiziDistractionAssault X2ActivityChainTemplate]
-strTitle="Abizi Distraction"
-strDescription="Description of the chain"
-strObjective="Objective - cant recall what is this for"
+strTitle="Distract ADVENT Patrol"
+strDescription="Distract an ADVENT patrol to allow the resistance to complete its operation in the area."
+strObjective="Objective - distract the ADVENT patrol and leave."
 
 [Activity_AbiziDistractionAssault X2ActivityTemplate_Assault]
 strOverviewDescription="Abizi Distraction"
